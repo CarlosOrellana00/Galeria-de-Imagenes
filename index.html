@@ -6,42 +6,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Galeria de Imagenes</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="lightbox.css">
+  <link rel="stylesheet" href="lightbox.min.css">
 </head>
 <body>
   <h1>Galeria de Imagenes</h1>
-
   <div class="gallery">
-    <a href="imagen/flor.jpg" >
+    <a href="imagen/flor.jpg" data-lightbox="mygallery">
       <img src="imagen/flor.jpg" alt="">
     </a>
-    <a href="imagen/house.jpg" >
+    <a href="imagen/house.jpg" data-lightbox="mygallery">
       <img src="imagen/house.jpg" alt="">
     </a>
-    <a href="imagen/deer.jpg" >
-      <img src="imagen/deer.jpg" alt="">
+    <a href="imagen/deer.jpg" data-lightbox="mygallery">
+      <img src="imagen/deer.jpg" data-lightbox="mygallery" alt="">
     </a>
-    <a href="imagen/sea.jpg" >
+    <a href="imagen/sea.jpg" data-lightbox="mygallery" >
       <img src="imagen/sea.jpg" alt="">
     </a>
-    <a href="imagen/snow.jpg" >
+    <a href="imagen/snow.jpg" data-lightbox="mygallery">
       <img src="imagen/snow.jpg" alt="">
     </a>
-    <a href="imagen/bird.jpg" >
+    <a href="imagen/bird.jpg" data-lightbox="mygallery">
       <img src="imagen/bird.jpg" alt="">
     </a>
-    <a href="imagen/cat.jpg">
+    <a href="imagen/cat.jpg" data-lightbox="mygallery">
       <img src="imagen/cat.jpg" alt="">
     </a>
-    <a href="imagen/fox.jpg" >
+    <a href="imagen/fox.jpg" data-lightbox="mygallery">
       <img src="imagen/fox.jpg" alt="">
     </a>
-    <a href="imagen/trees.jpg" >
+    <a href="imagen/trees.jpg" data-lightbox="mygallery">
       <img src="imagen/trees.jpg" alt="">
     </a>
-    <a href="imagen/way.jpg" >
+    <a href="imagen/way.jpg" data-lightbox="mygallery">
       <img src="imagen/way.jpg" alt="">
     </a>
   </div>
-
+  <script src="lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
